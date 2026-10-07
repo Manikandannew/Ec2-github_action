@@ -17,6 +17,6 @@ resource "aws_instance" "web1" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "Terraform-EC2"
+    Name = "Thiyaga-ec2_server"
   }
 }
